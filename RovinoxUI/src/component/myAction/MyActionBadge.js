@@ -11,11 +11,6 @@ export default function MyActionBadge() {
   const dispatch = useDispatch();
   const notSeenCount = useSelector((state) => state.drawer.notSeenCount);
 
-
-
-  
-
-
   useEffect(() => {
  
     dispatch(getNotification());
